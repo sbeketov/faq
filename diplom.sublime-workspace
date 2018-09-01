@@ -1,0 +1,1308 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"td",
+				"td\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"Re",
+				"Request"
+			],
+			[
+				"qu",
+				"question"
+			],
+			[
+				"v",
+				"view"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"vi",
+				"view"
+			],
+			[
+				"cate",
+				"Category"
+			],
+			[
+				"LO",
+				"loader"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"co",
+				"compact"
+			],
+			[
+				"c",
+				"contact"
+			],
+			[
+				"ad",
+				"address"
+			],
+			[
+				"lon",
+				"longitude"
+			],
+			[
+				"floa",
+				"float"
+			],
+			[
+				"lot",
+				"Longitude"
+			],
+			[
+				"l",
+				"getLongitude"
+			],
+			[
+				"a",
+				"address"
+			],
+			[
+				"e",
+				"empty"
+			],
+			[
+				"P",
+				"placeholder\tAttr"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"ne",
+				"newType"
+			],
+			[
+				"new",
+				"newType"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"ch",
+				"CheckDefault"
+			],
+			[
+				"n",
+				"null"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"check",
+				"CheckGet"
+			],
+			[
+				"d",
+				"default"
+			],
+			[
+				"bi",
+				"bindParam"
+			],
+			[
+				"ex",
+				"extra"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"f",
+				"fields"
+			],
+			[
+				"va",
+				"varchar"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"fi",
+				"fieldName"
+			],
+			[
+				"Va",
+				"var_dump"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"VA",
+				"var_dump"
+			],
+			[
+				"TA",
+				"table"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"tv",
+				"tvLg"
+			],
+			[
+				"cl",
+				"classNameWithNamespace"
+			],
+			[
+				"fe",
+				"fetchAll"
+			],
+			[
+				"sele",
+				"selectUsers"
+			],
+			[
+				"u",
+				"updateUser"
+			],
+			[
+				"preg_",
+				"preg_match_all"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"se",
+				"selectUsers"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"user_",
+				"user_login"
+			],
+			[
+				"ses",
+				"session_start"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"getUser",
+				"getUsers"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"bo",
+				"Boundtask"
+			],
+			[
+				"b",
+				"Boundtask"
+			],
+			[
+				"do",
+				"done"
+			],
+			[
+				"is_do",
+				"is_done"
+			],
+			[
+				"s",
+				"sql"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"pre",
+				"prev"
+			],
+			[
+				"ba",
+				"basket"
+			],
+			[
+				"ord",
+				"order"
+			],
+			[
+				"su",
+				"sumPrice"
+			],
+			[
+				"du",
+				"duckKarl"
+			],
+			[
+				"clo",
+				"color"
+			],
+			[
+				"gerH",
+				"getHeader"
+			],
+			[
+				"spl_",
+				"spl_autoload_register"
+			],
+			[
+				"file_",
+				"file_exists"
+			],
+			[
+				"str_",
+				"str_replace"
+			],
+			[
+				"pri",
+				"private"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"dis",
+				"discount"
+			],
+			[
+				"mysqli",
+				"mysqli_fetch"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"теле",
+				"Телевизор"
+			],
+			[
+				"set",
+				"setColor"
+			],
+			[
+				"car",
+				"carKia"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"fl",
+				"fly"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"rou",
+				"route"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"pe",
+				"peNoName"
+			],
+			[
+				"PU",
+				"public"
+			],
+			[
+				"CO",
+				"color"
+			],
+			[
+				"T",
+				"this"
+			],
+			[
+				"br",
+				"brand"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"FIL",
+				"file"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"an",
+				"answer"
+			],
+			[
+				"js",
+				"json_decode"
+			],
+			[
+				"te",
+				"testJson"
+			],
+			[
+				"tes",
+				"testFile"
+			],
+			[
+				"test",
+				"test_number"
+			],
+			[
+				"li",
+				"list"
+			],
+			[
+				"тетс",
+				"Тест"
+			],
+			[
+				"iF",
+				"if?\t$… = ( … ) ? … : …"
+			],
+			[
+				"filt",
+				"filter_input"
+			],
+			[
+				"arrey",
+				"array_key_exists"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"file",
+				"file_put_contents"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"contu",
+				"apd_continue"
+			],
+			[
+				"ani",
+				"animals"
+			],
+			[
+				"con",
+				"continent"
+			],
+			[
+				"strp",
+				"strpos"
+			],
+			[
+				"E",
+				"echo"
+			],
+			[
+				"sE",
+				"secondWord"
+			],
+			[
+				"vR",
+				"var_dump"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "resources/views/admins/list.blade.php",
+			"settings":
+			{
+				"buffer_size": 1061,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/admins/dashboard.blade.php",
+			"settings":
+			{
+				"buffer_size": 120,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/_common/_sidebar_dashboard.blade.php",
+			"settings":
+			{
+				"buffer_size": 958,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/categories/list.blade.php",
+			"settings":
+			{
+				"buffer_size": 1046,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/_common/_form_admin.blade.php",
+			"settings":
+			{
+				"buffer_size": 591,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/questions/list.blade.php",
+			"settings":
+			{
+				"buffer_size": 939,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/_common/_categories.blade.php",
+			"settings":
+			{
+				"buffer_size": 386,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/_common/_form_category.blade.php",
+			"settings":
+			{
+				"buffer_size": 358,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html lang=\"en\" class=\"no-js\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n\t<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css\" integrity=\"sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\">\n\n\t<title>FAQ</title>\n</head>\n<body>\n<div class=\"wrapper bg-light\">\n\t<header class=\"bg-success\">\n\t\t<h1 class=\"h1 text-center text-light\">FAQ</h1>\n\t</header>\n\t\t\t<div class=\"container position-relative\">\n\t<div class=\"row\">\n\t\t<aside class=\"col-md-3\">\n\t\t\t<div id=\"list-example\" class=\"list-group sticky-top\">\n\t\t\t\t<a class=\"list-group-item list-group-item-action\" href=\"#basics\">Basics</a>\n\t\t\t\t<a class=\"list-group-item list-group-item-action\" href=\"#mobile\">Mobile</a>\n\t\t\t\t<a class=\"list-group-item list-group-item-action\" href=\"#account\">Account</a>\n\t\t\t\t<a class=\"list-group-item list-group-item-action\" href=\"#payments\">Payments</a>\n\t\t\t\t<a class=\"list-group-item list-group-item-action\" href=\"#privacy\">Privacy</a>\n\t\t\t\t<a class=\"list-group-item list-group-item-action\" href=\"#delivery\">Delivery</a>\n\t\t\t</div> <!-- list-group -->\n\t\t</aside>\n\n\t\t<section class=\"col-md-9\">\n\n\t\t\t<div data-spy=\"scroll\" data-target=\"#list-example\" data-offset=\"0\" class=\"scrollspy-example position-relative\" style=\"height: 1000px; overflow-y: scroll\" >\n\t\t\t\t<ul id=\"basics\" class=\"list-unstyled\">\n\t\t\t\t\t<li class=\"text-muted\"><h2>Basics</h2></li>\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"accordion\" id=\"-accordionExample\">\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingOne\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">\n\t\t\t\t\t\t          Разворачиваемая панель #1\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\n\t\t\t\t\t\t    <div id=\"collapseOne\" class=\"collapse\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingTwo\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">\n\t\t\t\t\t\t          Разворачиваемая панель #2\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t    <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingThree\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">\n\t\t\t\t\t\t          Разворачиваемая панель #3\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t    <div id=\"collapseThree\" class=\"collapse\" aria-labelledby=\"headingThree\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</ul> <!-- cd-faq-group -->\n\n\t\t\t\t<ul id=\"mobile\" class=\"list-unstyled\">\n\t\t\t\t\t<li class=\"text-muted\"><h2>Basics</h2></li>\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"accordion\" id=\"accordionExample\">\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingOne\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">\n\t\t\t\t\t\t          Разворачиваемая панель #1\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\n\t\t\t\t\t\t    <div id=\"collapseOne\" class=\"collapse\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingTwo\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">\n\t\t\t\t\t\t          Разворачиваемая панель #2\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t    <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingThree\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">\n\t\t\t\t\t\t          Разворачиваемая панель #3\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t    <div id=\"collapseThree\" class=\"collapse\" aria-labelledby=\"headingThree\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</ul>\n\n\t\t\t\t<ul id=\"account\" class=\"list-unstyled\">\n\t\t\t\t\t<li class=\"text-muted\"><h2>Basics</h2></li>\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"accordion\" id=\"accordionExample\">\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingOne\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">\n\t\t\t\t\t\t          Разворачиваемая панель #1\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\n\t\t\t\t\t\t    <div id=\"collapseOne\" class=\"collapse\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingTwo\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">\n\t\t\t\t\t\t          Разворачиваемая панель #2\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t    <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingThree\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">\n\t\t\t\t\t\t          Разворачиваемая панель #3\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t    <div id=\"collapseThree\" class=\"collapse\" aria-labelledby=\"headingThree\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</ul>\n\n\t\t\t\t<ul id=\"privacy\" class=\"list-unstyled\">\n\t\t\t\t\t<li class=\"text-muted\"><h2>Basics</h2></li>\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"accordion\" id=\"accordionExample\">\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingOne\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">\n\t\t\t\t\t\t          Разворачиваемая панель #1\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\n\t\t\t\t\t\t    <div id=\"collapseOne\" class=\"collapse\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingTwo\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">\n\t\t\t\t\t\t          Разворачиваемая панель #2\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t    <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingThree\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">\n\t\t\t\t\t\t          Разворачиваемая панель #3\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t    <div id=\"collapseThree\" class=\"collapse\" aria-labelledby=\"headingThree\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</ul>\n\n\t\t\t\t<ul id=\"delivery\" class=\"list-unstyled\">\n\t\t\t\t\t<li class=\"text-muted\"><h2>Basics</h2></li>\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"accordion\" id=\"accordionExample\">\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingOne\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">\n\t\t\t\t\t\t          Разворачиваемая панель #1\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\n\t\t\t\t\t\t    <div id=\"collapseOne\" class=\"collapse\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingTwo\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">\n\t\t\t\t\t\t          Разворачиваемая панель #2\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t    <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t  <div class=\"card\">\n\t\t\t\t\t\t    <div class=\"card-header\" id=\"headingThree\">\n\t\t\t\t\t\t      <h5 class=\"mb-0\">\n\t\t\t\t\t\t        <button class=\"btn btn-link collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">\n\t\t\t\t\t\t          Разворачиваемая панель #3\n\t\t\t\t\t\t        </button>\n\t\t\t\t\t\t      </h5>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t    <div id=\"collapseThree\" class=\"collapse\" aria-labelledby=\"headingThree\" data-parent=\"#accordionExample\">\n\t\t\t\t\t\t      <div class=\"card-body\">\n\t\t\t\t\t\t        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</ul>\n\t\t\t</div> <!-- scrollspy-example -->\n\t\t\t<a href=\"#0\" class=\"cd-close-panel\">Close</a>\n\t\t</section> <!-- col-md-17 -->\n\t</div><!-- row -->\n</div><!-- container -->\n\n</div> <!-- wrapper -->\n<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js\" integrity=\"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49\" crossorigin=\"anonymous\"></script>\n<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js\" integrity=\"sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy\" crossorigin=\"anonymous\"></script>\n</html>",
+			"file": "/D/OSPanel/шаблон/index1.html",
+			"file_size": 21325,
+			"file_write_time": 131802068425800049,
+			"settings":
+			{
+				"buffer_size": 21013,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/OSPanel/шаблон/table.html",
+			"settings":
+			{
+				"buffer_size": 1897,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+			"node -v",
+			"https://github.com/tanepiper/SublimeText-Nodejs\"% APPDATA% \\ Sublime Text 3 \\ Packages \\ Nodejs \"",
+			"git clone https://github.com/tanepiper/SublimeText-Nodejs\"% APPDATA% \\ Sublime Text 3 \\ Packages \\ Nodejs \"",
+			"`git clone https://github.com/tanepiper/SublimeText-Nodejs\"% APPDATA% \\ Sublime Text 3 \\ Packages \\ Nodejs \"`",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/OSPanel/domains/faq",
+		"/D/OSPanel/domains/faq/app",
+		"/D/OSPanel/domains/faq/app/Http",
+		"/D/OSPanel/domains/faq/app/Http/Controllers",
+		"/D/OSPanel/domains/faq/bootstrap",
+		"/D/OSPanel/domains/faq/resources",
+		"/D/OSPanel/domains/faq/resources/views",
+		"/D/OSPanel/domains/faq/resources/views/_common",
+		"/D/OSPanel/domains/faq/resources/views/actions",
+		"/D/OSPanel/domains/faq/resources/views/admins",
+		"/D/OSPanel/domains/faq/resources/views/categories",
+		"/D/OSPanel/domains/faq/resources/views/errors",
+		"/D/OSPanel/domains/faq/resources/views/questions"
+	],
+	"file_history":
+	[
+		"/D/OSPanel/domains/faq/resources/views/index.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/_common/_form_question.blade.php",
+		"/D/OSPanel/domains/faq/app/Http/Controllers/QuestionsController.php",
+		"/D/OSPanel/domains/faq/app/Http/Controllers/AdminsController.php",
+		"/D/OSPanel/domains/faq/resources/views/_common/_categories.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/questions/_items.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/questions/faq.blade.php",
+		"/D/OSPanel/шаблон/form.html",
+		"/D/OSPanel/domains/faq/resources/views/_common/_form_admin.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/admins/list.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/categories/list.blade.php",
+		"/D/OSPanel/domains/faq/app/Category.php",
+		"/D/OSPanel/domains/faq/app/Http/Controllers/CategoriesController.php",
+		"/D/OSPanel/domains/php/lesson4.3/index.php",
+		"/D/OSPanel/domains/faq/routes/web.php",
+		"/D/OSPanel/domains/faq/resources/views/questions/questions.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/questions/create.blade.php",
+		"/D/OSPanel/domains/faq/app/Admin.php",
+		"/D/OSPanel/domains/faq/app/Http/Requests/QuestionRequest.php",
+		"/D/OSPanel/domains/faq/app/Question.php",
+		"/D/OSPanel/domains/faq/resources/views/actions/edit.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/actions/create.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/_common/_form_category.blade.php",
+		"/D/OSPanel/шаблон/index.html",
+		"/D/OSPanel/domains/faq/app/Http/Requests/CategoryRequest.php",
+		"/D/OSPanel/domains/faq/public/.htaccess",
+		"/D/OSPanel/domains/faq/app/Http/Controllers/Controller.php",
+		"/D/OSPanel/domains/faq/resources/views/questions/edit.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/errors/list.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/_common/_form.blade.php",
+		"/D/OSPanel/domains/faq/database/migrations/2018_08_23_194650_create_answers_table.php",
+		"/D/OSPanel/domains/faq/database/migrations/2018_08_23_194633_create_questions_table.php",
+		"/D/OSPanel/domains/faq/database/migrations/2018_08_23_194610_create_categories_table.php",
+		"/D/OSPanel/domains/faq/database/migrations/2018_08_23_194511_create_admins_table.php",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/create.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/edit.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/1create.twig",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/faq.blade.php",
+		"/D/OSPanel/domains/faq/config/app.php",
+		"/D/OSPanel/domains/faq/resources/views/_common/_form.twig",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/edit.twig",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/1edit.twig",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/_items.blade.php",
+		"/D/OSPanel/domains/faq/resources/views/index.balde.php",
+		"/D/OSPanel/domains/faq/app/Http/Requests/CreateQuestionRequest.php",
+		"/D/OSPanel/domains/faq/composer.json",
+		"/D/OSPanel/domains/faq/public/index.php",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/create.twig",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/_items.twig",
+		"/D/OSPanel/domains/faq/resources/views/index.twig",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/faq.twig",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/_items.blade (3).twig",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/_items.blade (2).twig",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/_items.blade (1).twig",
+		"/D/OSPanel/domains/faq/resources/views/welcome.blade.php",
+		"/D/OSPanel/domains/faq/app/Providers/AppServiceProvider.php",
+		"/D/OSPanel/domains/faq/resources/views/_common/_categories.twig",
+		"/D/OSPanel/шаблон/css/style.css",
+		"/D/OSPanel/domains/faq/app/Answer.php",
+		"/D/OSPanel/domains/faq/public/css/style.css",
+		"/D/OSPanel/domains/faq/public/css/reset.css",
+		"/D/OSPanel/domains/faq/public/css/app.css",
+		"/D/OSPanel/domains/faq/database/seeds/AdminsSeeder.php",
+		"/D/OSPanel/domains/faqq/database/seeds/AdminsSeeder.php",
+		"/D/OSPanel/domains/faq/database/migrations/2018_08_23_194540_create_authors_table.php",
+		"/D/OSPanel/domains/faq/app/User.php",
+		"/D/OSPanel/domains/faq/resources/views/pages/questions/pages.questions._items.twig",
+		"/D/OSPanel/domains/faq/resources/views/_common/form.twig",
+		"/D/OSPanel/domains/faq/resources/views/edit.twig",
+		"/D/OSPanel/domains/faq/resources/views/faq.twig",
+		"/D/OSPanel/domains/faq/resources/views/edit.twig.html",
+		"/D/OSPanel/domains/faq/resources/views/test1.twig",
+		"/D/OSPanel/domains/faq/resources/views/test.twig.php",
+		"/D/OSPanel/domains/faq/bootstrap/app.php",
+		"/D/OSPanel/domains/faq/.gitignore",
+		"/D/OSPanel/domains/faq/routes/t.twig",
+		"/D/OSPanel/domains/faq/index.twig",
+		"/D/OSPanel/domains/faq/.env",
+		"/D/OSPanel/domains/php/diplom/functions.php",
+		"/D/OSPanel/domains/faq/database/seeds/DatabaseSeeder.php",
+		"/D/dev/faq/database/seeds/DatabaseSeeder.php",
+		"/D/dev/faq/database/seeds/AdminsSeeder.php",
+		"/D/OSPanel/domains/faq/database/migrations/2018_08_22_190226_create_answers_table.php",
+		"/D/dev/faq/database/migrations/2018_08_23_194650_create_answers_table.php",
+		"/D/OSPanel/domains/faq/database/migrations/2018_08_22_190214_create_questions_table.php",
+		"/D/dev/faq/database/migrations/2018_08_23_194633_create_questions_table.php",
+		"/D/OSPanel/domains/faq/database/migrations/2018_08_22_190144_create_categories_table.php",
+		"/D/dev/faq/database/migrations/2018_08_23_194610_create_categories_table.php",
+		"/D/OSPanel/domains/faq/database/migrations/2018_08_22_190121_create_authors_table.php",
+		"/D/dev/faq/database/migrations/2018_08_23_194540_create_authors_table.php",
+		"/D/dev/faq/database/migrations/2018_08_23_194511_create_admins_table.php",
+		"/D/OSPanel/domains/faq/database/migrations/2018_08_22_185718_create_admins_table.php",
+		"/D/OSPanel/domains/php/diplom/index.php",
+		"/D/dev/faq/config/app.php",
+		"/D/dev/faq/.env",
+		"/D/OSPanel/domains/faq/vendor/twig/twig/composer.json",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/database/migrations/2018_08_20_195609_create_phones_table.php",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/D/OSPanel/domains/php/lesson4.4/index.php",
+		"/D/OSPanel/domains/php/lesson4.4/functions.php",
+		"/D/OSPanel/domains/faq/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/app/Providers/AppServiceProvider.php",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/database/migrations/2018_08_20_194056_create_contacts_table.php",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/.env",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/D/OSPanel/domains/faq/app/Providers/RouteServiceProvider.php",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/routes/web.php",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/app/Http/Controllers/ContactsController.php",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/database/migrations/2018_08_19_191031_create_phones_table.php",
+		"/D/OSPanel/domains/php/phpinfo.php",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/public/index.php",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/app/Http/Controllers/Auth/LoginController.php",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/public/css/app.css",
+		"/D/OSPanel/domains/laravel/.env",
+		"/D/OSPanel/domains/php/lesson5.2/config.php",
+		"/D/OSPanel/domains/php/lesson5.2/index.php",
+		"/D/OSPanel/domains/php/lesson5.3/laravel/.gitignore",
+		"/D/OSPanel/domains/php/lesson4.3/login.php",
+		"/D/OSPanel/domains/php/mvc/config.php",
+		"/D/OSPanel/domains/php/mvc/index.php",
+		"/D/OSPanel/domains/php/lesson4.3/style.css",
+		"/D/OSPanel/domains/php/lesson4.3/register.php",
+		"/D/OSPanel/domains/php/lesson4.3/logout.php",
+		"/D/OSPanel/domains/php/lesson4.3/login1.php",
+		"/D/OSPanel/domains/php/lesson4.3/functions.php",
+		"/D/OSPanel/domains/php/lesson7/loader.php",
+		"/D/OSPanel/domains/php/lesson5.1/functions.php"
+	],
+	"find":
+	{
+		"height": 42.4
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">",
+			"}",
+			"nametable",
+			"getTab",
+			"gettab",
+			"getTabName",
+			"table",
+			"table.",
+			"fields",
+			"column",
+			"Field",
+			"Field\t",
+			"tasks",
+			"user",
+			"task",
+			"db1",
+			"tasks",
+			"task",
+			"book",
+			"books",
+			"numberProduct",
+			"countProduct",
+			"name",
+			"title",
+			"price",
+			"prise",
+			"title",
+			"duckKarl",
+			"bpNoName",
+			"diagonal",
+			"tv",
+			"diagonal",
+			"tv",
+			"bpErich",
+			"tvSony",
+			"BallPen",
+			"tv",
+			"diagonal",
+			"upload_max_filesize",
+			"brend",
+			"brand",
+			"\t\t\t\n",
+			"header-t",
+			"1062",
+			"upload_max_filesize",
+			"post_max_size",
+			"upload_max_filesize",
+			"post_max_size",
+			"upload_max_filesize"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"table",
+			"field",
+			"tables",
+			"db",
+			"task",
+			"tasks",
+			"numProduct",
+			"Products",
+			"fullName",
+			"model",
+			"name",
+			"fullPrice",
+			"fullPrise",
+			"name",
+			"duckRobert",
+			"duckKarl",
+			"maxFlightAltitude",
+			"Duck",
+			"maxFlightAltitude",
+			"Duck",
+			"bpNoName",
+			"bpErich",
+			"tv",
+			"BallPen",
+			"material"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/views/admins/list.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								888,
+								888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 260.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/admins/dashboard.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/_common/_sidebar_dashboard.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								689
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 136.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "resources/views/categories/list.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/_common/_form_admin.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/views/questions/list.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								873,
+								833
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/views/_common/_categories.blade.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								2
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "resources/views/_common/_form_category.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								358,
+								358
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/D/OSPanel/шаблон/index1.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21013,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 340.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/D/OSPanel/шаблон/table.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1067,
+								1067
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 576.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.542729970326,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 138.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 130.0
+	},
+	"pinned_build_system": "",
+	"project": "diplom.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
