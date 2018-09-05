@@ -1,5 +1,5 @@
-@extends('index')
-@section('content')
+@extends('dashboard')
+@section('item')
 
 <table class="table table-striped">
 	<thead>

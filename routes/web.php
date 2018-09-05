@@ -15,8 +15,11 @@ Route::get('doc', function () {
     return view('welcome');
 });
 
-
-Route::get('/', ['uses' => 'QuestionsController@faq', 'as' => 'home']);
 Route::resource('question', 'QuestionsController');
 Route::resource('category', 'CategoriesController');
 Route::resource('admin', 'AdminsController');
+
+Auth::routes();
+
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('dashboard', 'DashboardController@index');

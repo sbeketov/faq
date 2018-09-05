@@ -1,8 +1,7 @@
 @extends('index')
 @section('content')
 		
-
-		@include('questions._items')
+	@include('questions._items')
 
 		
 @stop

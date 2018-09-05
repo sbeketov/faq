@@ -1,7 +1,7 @@
-@extends('index')
-@section('content')	
+@extends('dashboard')
+@section('item')	
 	<div class="cd-faq-items">	
-		{!! Form::open(['route' => $route]) !!}
+		{!! Form::open(['method' => 'POST', 'url' => 'question']) !!}
 			
 			@include ($form)
 

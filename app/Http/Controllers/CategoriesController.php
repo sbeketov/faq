@@ -10,16 +10,18 @@ use App\Http\Requests\CategoryRequest;
 
 class CategoriesController extends Controller
 {	
-
+	
 	public function index() 
 	{	
 	
 		$data = [
-			'categories' => Category::with('questionsCount')->get(),
-			'count' => Question::where('status', 1)->count()
+			'categories' => Category::with(['questionsCount'=> function($q) {
+			    $q->where('status', 1)->first();
+			}])->get(),
+			'questionsCount' => Question::get()
 		];
-
-
+		
+		//dd($data);
 		
 		return view('categories.list', $data);
 	}

@@ -4,9 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Admin;
+use App\Http\Requests\AdminRequest;
 
 class AdminsController extends Controller
 {
+    
     public function index() 
 	{	
 	
@@ -28,7 +30,7 @@ class AdminsController extends Controller
 	}
 
 
-	public function store(Request $request) 
+	public function store(AdminRequest $request) 
 	{
 		Admin::create($request->all());
 		return redirect('/admin');
@@ -44,7 +46,7 @@ class AdminsController extends Controller
 		return view('actions.edit', $data);
 	}
 
-	public function update($id, Request $request)
+	public function update($id, AdminRequest $request)
 	{
 		$model = Admin::findOrFail($id);
 		$model->update($request->all());

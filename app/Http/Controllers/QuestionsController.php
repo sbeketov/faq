@@ -11,23 +11,6 @@ use App\Http\Requests\QuestionRequest;
 
 class QuestionsController extends Controller
 {
-	
-
-	public function faq() 
-	{	
-	
-		$data = [ 
-			'categories' => Category::with(['questions'=> function($q) {
-			$q->where('status', 1)->orderBy('created_at', 'desc');
-		}])->get(),
-			'questions' => Question::get(),
-			'answers' => Answer::orderBy('created_at', 'desc')->get(),
-		];
-
-		
-		return view('questions.faq', $data);
-	}
-
 	public function index() 
 	{	
 	
@@ -40,10 +23,11 @@ class QuestionsController extends Controller
 	}
 
 	public function create() 
-	{	$data = [
-		'categories' => Category::pluck('name', 'id'),
+	{	
+		$data = [
+		'categoriesSelect' => Category::pluck('name', 'id'),
 		'form' => '_common._form_question',
-		'route' => 'question.store',
+		'action' => 'QuestionsController@store',
 		'submitButton' => 'Добавить'
 		];
 		return view('actions.create', $data);
@@ -52,7 +36,6 @@ class QuestionsController extends Controller
 
 	public function store(QuestionRequest $request) 
 	{
-		dd($request);
 		Question::create($request->all());
 		return redirect('/');
 	}
@@ -60,10 +43,10 @@ class QuestionsController extends Controller
 	public function edit($id)
 	{	$data = [
 		'model' => Question::findOrFail($id),
-		'categories' => Category::pluck('name', 'id'),
+		'categoriesSelect' => Category::pluck('name', 'id'),
 		'form' => '_common._form_question',
+		'action' => 'QuestionsController@update',
 		'submitButton' => 'Сохранить',
-		'action' => 'QuestionsController@update'
 		];
 		return view('actions.edit', $data);
 	}
