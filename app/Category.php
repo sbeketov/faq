@@ -17,7 +17,15 @@ class Category extends Model
     	return $this->hasMany(Question::class);
     }
 
-    public function questionsCount0()
+
+	public function questionsCount()
+	{
+	  return $this->questions()
+	    ->selectRaw('category_id, count(*) as aggregate')
+	    ->groupBy('category_id');
+	}
+
+	public function questionsCount0()
 	{
 	  return $this->questions()
 	    ->selectRaw('category_id, count(*) as aggregate')

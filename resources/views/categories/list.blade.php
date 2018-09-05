@@ -12,6 +12,8 @@
 
 		<th>Название категории</th>
 
+		<th>Всего вопросов</th>
+
 		<th>Опубликовано</th>
 
 		<th>Ожидает ответа</th>
@@ -31,6 +33,12 @@
 			<tr>
 
 				<td>{{ $category->name }}</td>
+
+				<td>
+					@foreach ($category->questionsCount as $questionsCount)
+						{{ $questionsCount->aggregate }}
+					@endforeach
+				</td>
 
 				<td>
 					@foreach ($category->questionsCount1 as $questionsCount)

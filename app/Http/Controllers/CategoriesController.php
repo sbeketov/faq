@@ -16,6 +16,9 @@ class CategoriesController extends Controller
 	
 		$data = [
 			'categories' => Category::with([
+				'questionsCount'=> function($q) {
+			    $q;
+				},
 				'questionsCount0'=> function($q) {
 			    $q;
 				},

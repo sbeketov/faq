@@ -1,7 +1,7 @@
 @extends('dashboard')
 @section('item')
 
-<table class="table table-striped">
+<table class="table table-hover">
 	<thead>
 	  <tr>
 		<th>Автор</th>
