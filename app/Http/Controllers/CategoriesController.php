@@ -15,10 +15,18 @@ class CategoriesController extends Controller
 	{	
 	
 		$data = [
-			'categories' => Category::with(['questionsCount'=> function($q) {
-			    $q->where('status', 1)->first();
-			}])->get(),
-			'questionsCount' => Question::get()
+			'categories' => Category::with([
+				'questionsCount0'=> function($q) {
+			    $q;
+				},
+				'questionsCount1'=> function($q) {
+			    $q;
+				},
+				'questionsCount2'=> function($q) {
+			    $q;
+				},
+
+			])->get(),
 		];
 		
 		//dd($data);
