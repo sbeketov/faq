@@ -13,7 +13,8 @@ class Question extends Model
 		'name',
 		'author',
 		'email',
-		'category_id'
+		'category_id',
+		'status'
 	];
 
 	public function category()

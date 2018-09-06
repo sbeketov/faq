@@ -44,8 +44,8 @@
 			@include('_common._form_question')
 		{!! Form::close() !!}
 	</div>
+	@include ('errors.list')
 </section> <!--col-md-9-->
 </div> <!--row-->
 
 @endsection
-	

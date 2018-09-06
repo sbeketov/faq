@@ -35,9 +35,9 @@
 				<td>{{ $category->name }}</td>
 
 				<td>
-					@foreach ($category->questionsCount as $questionsCount)
+					<a href="/category/{{ $category->id }}" class="btn btn-info">@foreach ($category->questionsCount as $questionsCount)
 						{{ $questionsCount->aggregate }}
-					@endforeach
+					@endforeach</a>
 				</td>
 
 				<td>
@@ -74,7 +74,7 @@
 
 			<tr>
 
-				<td colspan="5">
+				<td colspan="6">
 
 					{!! Form::open(['url' => '/category', 'method' => 'path']) !!}
 

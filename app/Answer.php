@@ -8,7 +8,13 @@ use App\Question;
 
 class Answer extends Model
 {
-    public function category()
+
+	protected $fillable = [
+		'answer',
+		'question_id'
+	];
+
+    public function question()
 	{
     	return $this->belongsTo(Question::class);
     }

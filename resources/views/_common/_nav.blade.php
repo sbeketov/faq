@@ -14,13 +14,13 @@
                             <a class="nav-link" href="/">Главная<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="category">Категории</a>
+                            <a class="nav-link" href="/category">Категории</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="question">Вопросы</a>
+                            <a class="nav-link" href="/question">Вопросы без ответов</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="admin">Администраторы</a>
+                            <a class="nav-link" href="/admin">Администраторы</a>
                         </li>
                     </ul>
 

@@ -48,4 +48,11 @@ class Category extends Model
 	    ->where('status', 2)
 	    ->groupBy('category_id');
 	}
+	
+		public function questionsStatus()
+	{
+	  return $this->questions()
+	    ->whereRaw('status', 0)
+	    ->get();
+	}
 }

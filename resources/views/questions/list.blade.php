@@ -8,7 +8,6 @@
 		<th>Email</th>
 		<th>Вопрос</th>
 		<th>Дата создания</th>
-		<th>Статус</th>
 		<th></th>
 	  </tr>
 	</thead>
@@ -19,17 +18,14 @@
 				<td>{{ $question->email }}</td>
 				<td>{{ $question->name }}</td>
 				<td>{{ $question->created_at }}</td>
-				<td>{{ $question->status }}</td>
-				<td><a href="/question/{{ $question->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
+				<td><a href="/question/{{ $question->id }}" class="btn btn-info mx-2 float-left">Ответить</a>
+				    <a href="/question/{{ $question->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
 					{!! Form::open(['url' => '/question/'.$question->id, 'method' => 'delete']) !!}
 					{!! Form::submit('Удалить', ['class' => 'btn btn-danger mx-2']) !!}
 					{!! Form::close() !!}
 				</td>
 			</tr>
-		@endforeach
-			<tr>
-				<td colspan="6"><a href="question/create" class="btn btn-primary btn-lg btn-block">Добавить новый вопрос</a></td>
-			</tr>
+		@endforeach    
 	</tbody>
 </table>
 

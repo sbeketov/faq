@@ -37,6 +37,44 @@ class CategoriesController extends Controller
 		return view('categories.list', $data);
 	}
 
+	public function show($id)
+	{
+		$data = [
+			'category' => Category::findOrFail($id),
+			'status' => [
+                0 => 'Ожидает ответа',
+                1 => 'Опубликовано',
+                2 => 'Скрыто'
+                ]
+			//'questions' => Question::where('status', 0)->get()
+		];
+		
+		//dd($data);
+
+		return view('categories.questions', $data);
+	}
+	
+	public function questions($id, $status)
+	{
+		$data = [
+			'category' => Category::with([
+			    'questionsStatus'=> function($q) {
+			        $q;
+				},
+			    ])->findOrFail($id),
+	        'status' => [
+                0 => 'Ожидает ответа',
+                1 => 'Опубликовано',
+                2 => 'Скрыто'
+                ]
+			//'questions' => Question::where('status', 0)->get()
+		];
+		
+		//dd($data);
+
+		return view('categories.questions', $data);
+	}
+
     public function create() 
 	
 	{

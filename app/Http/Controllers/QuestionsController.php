@@ -11,15 +11,33 @@ use App\Http\Requests\QuestionRequest;
 
 class QuestionsController extends Controller
 {
+    
 	public function index() 
 	{	
 	
 		$data = [
-			'questions' => Question::all(),
+			'questions' => Question::where('status', 0)->orderBy('created_at', 'desc')->get(),
 		];
 
 		
 		return view('questions.list', $data);
+	}
+	
+	public function show($id) 
+	{	
+	
+		$data = [
+			'question' => Question::findOrFail($id),
+			'form' => '_common._form_answer',
+		    'submitButton' => 'Добавить',
+		    'status' => [
+                1 => 'Опубликовано',
+                2 => 'Скрыто'
+                ]
+		];
+		
+		return view('questions.add_answer', $data);
+
 	}
 
 	public function create() 
@@ -28,7 +46,7 @@ class QuestionsController extends Controller
 		'categoriesSelect' => Category::pluck('name', 'id'),
 		'form' => '_common._form_question',
 		'action' => 'QuestionsController@store',
-		'submitButton' => 'Добавить'
+		'submitButton' => 'Добавить',
 		];
 		return view('actions.create', $data);
 	}
@@ -44,7 +62,12 @@ class QuestionsController extends Controller
 	{	$data = [
 		'model' => Question::findOrFail($id),
 		'categoriesSelect' => Category::pluck('name', 'id'),
-		'form' => '_common._form_question',
+		'status' => [
+                0 => 'Ожидает ответа',
+                1 => 'Опубликовано',
+                2 => 'Скрыто'
+            ],
+		'form' => '_common._form_question_update',
 		'action' => 'QuestionsController@update',
 		'submitButton' => 'Сохранить',
 		];
