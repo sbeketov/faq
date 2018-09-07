@@ -20,7 +20,11 @@
                             <a class="nav-link" href="/question">Вопросы без ответов</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/admin">Администраторы</a>
+                            <a class="nav-link" href="/user">АдминистраторыU</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/admin">АдминистраторыA</a>
                         </li>
                     </ul>
 
@@ -29,10 +33,7 @@
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Войти') }}</a>
                             </li>
                         @else
                             <li class="nav-item dropdown">
@@ -44,7 +45,7 @@
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
+                                        {{ __('Выйти') }}
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">

@@ -22,17 +22,17 @@
 
 	<tbody>
 
-		@foreach ($admins as $admin)
+		@foreach ($users as $user)
 
 			<tr>
 
-				<td>{{ $admin->name }}</td>
+				<td>{{ $user->name }}</td>
 
-				<td>{{ $admin->password }}</td>
+				<td>{{ $user->password }}</td>
 
-				<td><a href="/admin/{{ $admin->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
+				<td><a href="/user/{{ $user->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
 
-					{!! Form::open(['url' => '/admin/'.$admin->id, 'method' => 'delete']) !!}
+					{!! Form::open(['url' => '/user/'.$user->id, 'method' => 'delete']) !!}
 
 					{!! Form::submit('Удалить', ['class' => 'btn btn-danger mx-2']) !!}
 
@@ -48,7 +48,7 @@
 
 				<td colspan="3">
 
-					{!! Form::open(['url' => '/admin', 'method' => 'path']) !!}
+					{!! Form::open(['url' => '/user', 'method' => 'path']) !!}
 
 					{!! Form::text('name', null, ['placeholder' => 'Логин', 'class' => 'form-control col-sm-3 mx-2']) !!}
 

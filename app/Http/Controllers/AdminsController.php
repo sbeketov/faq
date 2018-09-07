@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Admin;
 use App\Http\Requests\AdminRequest;
 
+
 class AdminsController extends Controller
 {
     

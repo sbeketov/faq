@@ -14,8 +14,6 @@
 
 			</div>
 
-
-
 			<div class="form-group row">
 
 				{!! Form::label('password', 'Пароль: *', ['class' => 'col-sm-2 col-form-label']) !!}
