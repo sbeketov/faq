@@ -10,7 +10,12 @@ use Illuminate\Support\Facades\Hash;
 
 class UsersController extends Controller
 {
-     public function index() 
+	public function __construct()
+	{
+	    $this->middleware('auth');
+	}
+	
+    public function index() 
 	{	
 	
 		$data = [

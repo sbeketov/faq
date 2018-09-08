@@ -11,6 +11,11 @@ use App\Http\Requests\QuestionRequest;
 
 class QuestionsController extends Controller
 {
+
+	public function __construct()
+	{
+	    $this->middleware('auth', ['except' => 'store']);
+	}
     
 	public function index() 
 	{	

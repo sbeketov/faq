@@ -11,7 +11,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Главная<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/dashboard">Главная<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/category">Категории</a>
