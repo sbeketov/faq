@@ -19,7 +19,6 @@ Route::resource('question', 'QuestionsController');
 Route::resource('category', 'CategoriesController');
 Route::get('category/{id}/{status}', 'CategoriesController@questions');
 Route::resource('user', 'UsersController');
-Route::resource('admin', 'AdminsController');
 Route::resource('answer', 'AnswersController');
 
 Auth::routes();

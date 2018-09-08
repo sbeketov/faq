@@ -20,11 +20,7 @@
                             <a class="nav-link" href="/question">Вопросы без ответов</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/user">АдминистраторыU</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="/admin">АдминистраторыA</a>
+                            <a class="nav-link" href="/user">Администраторы</a>
                         </li>
                     </ul>
 
