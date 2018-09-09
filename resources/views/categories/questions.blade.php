@@ -15,14 +15,15 @@
 	</thead>
 	<tbody>
 		@foreach ($category->questions as $question)
-			<tr>
+			<tr class="table-primary">
 			    <td>Инфо</td>
 			   	<td>{{ $question->author }}</td>
 				<td>{{ $question->email }}</td>
 				<td>{{ $question->created_at }}</td>
 				<td>{{ $status[$question->status] }}</td>
-						</tr>
-			<tr>
+				<td></td>
+			</tr>
+			<tr class="table-success">
 			    <td>Вопрос</td>
 			    <td colspan="4">{{ $question->name }}</td>
 			    <td><a href="/question/{{ $question->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
@@ -35,10 +36,15 @@
     			    <tr>
     			        <td>Ответ</td>
     				    <td colspan="4">{{ $answer->answer }}</td>
-    				    <td><a href="/answer/{{ $answer->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
-        					{!! Form::open(['url' => '/answer/'.$answer->id, 'method' => 'delete']) !!}
-        					{!! Form::submit('Удалить', ['class' => 'btn btn-danger mx-2']) !!}
-        					{!! Form::close() !!}
+    				    <td>
+    				    	<a href="/answer/{{ $answer->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
+        					
+	    					{!! Form::open(['url' => '/answer/'.$answer->id, 'method' => 'delete']) !!}
+	    					
+	    					{!! Form::submit('Удалить', ['class' => 'btn btn-danger mx-2']) !!}
+
+	    					{!! Form::close() !!}
+
         				</td>
     			    <tr>
 		        @endforeach		

@@ -7,7 +7,7 @@ use App\Answer;
 use App\Category;
 use App\Question;
 use App\Http\Requests\QuestionRequest;
-//use Request;
+use Request;
 
 class QuestionsController extends Controller
 {
@@ -86,10 +86,20 @@ class QuestionsController extends Controller
 		return redirect('/question');
 	}
 
+	public function editStatus($id, $status)
+	{	
+		$model = Question::findOrFail($id);
+		$model->update([
+			'status' => $status
+		]);
+
+		return redirect('/question');
+	}
+
 	public function destroy($id)
 	{
 		$model = Question::findOrFail($id)->delete();
-		return redirect('/question');
+		return redirect('/category');
 	}
 
 }

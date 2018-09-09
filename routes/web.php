@@ -25,3 +25,5 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('dashboard', 'DashboardController@index');
+
+Route::get('question/{question}/{status}', 'QuestionsController@editStatus')->name('editStatus');

@@ -35,9 +35,7 @@ class CategoriesController extends Controller
 
 			])->get(),
 		];
-		
-		//dd($data);
-		
+			
 		return view('categories.list', $data);
 	}
 
@@ -50,11 +48,8 @@ class CategoriesController extends Controller
                 1 => 'Опубликовано',
                 2 => 'Скрыто'
                 ]
-			//'questions' => Question::where('status', 0)->get()
 		];
 		
-		//dd($data);
-
 		return view('categories.questions', $data);
 	}
 	
@@ -71,16 +66,12 @@ class CategoriesController extends Controller
                 1 => 'Опубликовано',
                 2 => 'Скрыто'
                 ]
-			//'questions' => Question::where('status', 0)->get()
 		];
 		
-		//dd($data);
-
 		return view('categories.questions', $data);
 	}
 
     public function create() 
-	
 	{
 		$data = [
 		'form' => '_common._form_category',
@@ -99,7 +90,8 @@ class CategoriesController extends Controller
 	}
 
 	public function edit($id)
-	{	$data = [
+	{	
+		$data = [
 		'model' => Category::findOrFail($id),
 		'form' => '_common._form_category',
 		'submitButton' => 'Сохранить',
@@ -121,5 +113,4 @@ class CategoriesController extends Controller
 		$model = Category::findOrFail($id)->delete();
 		return redirect('/category');
 	}
-
 }
