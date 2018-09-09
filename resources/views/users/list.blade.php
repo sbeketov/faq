@@ -12,8 +12,6 @@
 
 		<th>Логин</th>
 
-		<th>Пароль</th>
-
 		<th></th>
 
 	  </tr>
@@ -27,8 +25,6 @@
 			<tr>
 
 				<td>{{ $user->name }}</td>
-
-				<td>{{ $user->password }}</td>
 
 				<td><a href="/user/{{ $user->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
 
@@ -46,7 +42,7 @@
 
 			<tr>
 
-				<td colspan="3">
+				<td colspan="2">
 
 					{!! Form::open(['url' => '/user', 'method' => 'path']) !!}
 

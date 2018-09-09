@@ -28,7 +28,6 @@ class HomeController extends Controller
             'categories' => Category::with(['questions'=> function($q) {
             $q->where('status', 1)->orderBy('created_at', 'desc');
         }])->get(),
-            'answers' => Answer::orderBy('created_at', 'desc')->get(),
             'categoriesSelect' => Category::pluck('name', 'id'),
             'route' => 'question.store',
             'submitButton' => 'Задать вопрос'

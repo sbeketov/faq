@@ -26,11 +26,9 @@
 									
 				<div id="collapse{{ $question->id }}" class="collapse" aria-labelledby="heading{{ $question->id }}" data-parent="#accordion">
 					 
-					@foreach ($question->answers as $answer)
 						<div class="card-body">
-							{{ $answer->answer }}
+							{{ $question->answer['answer'] }}
 						</div>
-					@endforeach
 				</div> <!-- collapse -->
 			</div> <!-- card -->
 		@endforeach

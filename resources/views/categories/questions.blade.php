@@ -32,14 +32,14 @@
 					{!! Form::close() !!}
 				</td>
 			</tr>
-			    @foreach ($question->answers as $answer)
+			    
     			    <tr>
     			        <td>Ответ</td>
-    				    <td colspan="4">{{ $answer->answer }}</td>
+    				    <td colspan="4">{{ $question->answer['answer'] }}</td>
     				    <td>
-    				    	<a href="/answer/{{ $answer->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
+    				    	<a href="/answer/{{ $question->answer['id'] }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
         					
-	    					{!! Form::open(['url' => '/answer/'.$answer->id, 'method' => 'delete']) !!}
+	    					{!! Form::open(['url' => '/answer/'.$question->answer['id'], 'method' => 'delete']) !!}
 	    					
 	    					{!! Form::submit('Удалить', ['class' => 'btn btn-danger mx-2']) !!}
 
@@ -47,7 +47,7 @@
 
         				</td>
     			    <tr>
-		        @endforeach		
+		        		
 		@endforeach
 	</tbody>
 </table>

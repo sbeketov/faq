@@ -22,9 +22,9 @@ class Question extends Model
     	return $this->belongsTo(Category::class);
     }
 
-    public function answers()
+    public function answer()
     {
-    	return $this->hasMany(Answer::class);
+    	return $this->hasOne(Answer::class);
     }
 
 
