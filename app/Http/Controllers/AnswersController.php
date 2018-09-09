@@ -68,6 +68,7 @@ class AnswersController extends Controller
 	public function edit($id)
 
 	{	$data = [
+ 
 
 		'model' => Answer::findOrFail($id),
 

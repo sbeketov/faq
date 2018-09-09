@@ -11,7 +11,7 @@ SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 
 DROP TABLE IF EXISTS `admins`;
 
-CREATE TABLE `admins` (
+CREATE TABLE `users` (
 
   `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
 
@@ -19,17 +19,22 @@ CREATE TABLE `admins` (
 
   `updated_at` timestamp NULL,
 
-  `login` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+
+  `email` varchar(255) NULL,
 
   `password` varchar(255) NOT NULL,
+
+  `remember_token` varchar(100) NULL,
 
   PRIMARY KEY (`id`)
 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `admins` (`id`, `login`, `password`) VALUES
+INSERT INTO `users` (`id`, `name`, `password`) VALUES
 
-(1,	'admin', 'admin');
+(1,	'admin', '$2y$10$9uI3w3SCPfmhUpbiF5nOsegtxr1tveF0cDWRaDFOlgOhJiUCRQtTa  
+');
 
 
 DROP TABLE IF EXISTS `answers`;
