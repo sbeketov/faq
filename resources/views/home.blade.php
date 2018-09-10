@@ -2,11 +2,11 @@
 
 
 @section('content')
-<div class="text-right"><a href="/dashboard">Для администраторов</a></div>
+<div class="text-right"><a href="/category">Для администраторов</a></div>
 <div class="row">
 @include('_common._categories')
 <section class="col-md-9">
-	
+<div class="mb-5">
 	@foreach ($categories as $category)
 	<div id="{{ $category->name }}">
 		<h2 class="text-muted">{{ $category->name }}</h2>
@@ -35,14 +35,12 @@
 	</div> <!-- accordion -->
 	</div>	
 	@endforeach
+</div>
 
-	<div>
-		<h2 class="h2 text-center">Ваш вопрос:</h2>
-		{!! Form::open(['method' => 'POST', 'url' => 'question']) !!}
-			@include('_common._form_question')
-		{!! Form::close() !!}
-	</div>
-	@include ('errors.list')
+<h2 class="h2 text-center mb-3">Ваш вопрос:</h2>
+	
+@include('actions.create')
+	
 </section> <!--col-md-9-->
 </div> <!--row-->
 

@@ -2,7 +2,7 @@
 
 @section('item')	
 
-	<div class="cd-faq-items">	
+	<div class="container">	
 
 		{!! Form::model($model, ['method' => 'PATCH', 'action' => [$action, $model->id]]) !!}
 

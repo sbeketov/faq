@@ -29,7 +29,8 @@ class HomeController extends Controller
             $q->where('status', 1)->orderBy('created_at', 'desc');
         }])->get(),
             'categoriesSelect' => Category::pluck('name', 'id'),
-            'route' => 'question.store',
+            'form' => '_common._form_question',
+            'url' => '/question',
             'submitButton' => 'Задать вопрос'
         ];
         

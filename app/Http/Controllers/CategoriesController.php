@@ -34,6 +34,10 @@ class CategoriesController extends Controller
 				},
 
 			])->get(),
+		'text' => 'Новая категория:',
+		'form' => '_common._form_category',
+		'url' => '/category',
+		'submitButton' => 'Добавить'
 		];
 			
 		return view('categories.list', $data);
@@ -43,6 +47,7 @@ class CategoriesController extends Controller
 	{
 		$data = [
 			'category' => Category::findOrFail($id),
+			'questions' => Question::where('category_id', $id)->get(),
 			'status' => [
                 0 => 'Ожидает ответа',
                 1 => 'Опубликовано',
@@ -53,15 +58,14 @@ class CategoriesController extends Controller
 		return view('categories.questions', $data);
 	}
 	
-	public function questions($id, $status)
+	
+	public function questionsList($id, $status)
 	{
-		$data = [
-			'category' => Category::with([
-			    'questionsStatus'=> function($q) {
-			        $q;
-				},
-			    ])->findOrFail($id),
-	        'status' => [
+	    $data = [
+	        
+            'category' => Category::findOrFail($id),
+            'questions' => Question::where('category_id', $id)->where('status', $status)->get(),
+            'status' => [
                 0 => 'Ожидает ответа',
                 1 => 'Опубликовано',
                 2 => 'Скрыто'
@@ -70,15 +74,9 @@ class CategoriesController extends Controller
 		
 		return view('categories.questions', $data);
 	}
-
+	
     public function create() 
 	{
-		$data = [
-		'form' => '_common._form_category',
-		'route' => 'category.store',
-		'submitButton' => 'Добавить'
-		];
-		return view('actions.create', $data);
 	}
 
 
@@ -95,7 +93,8 @@ class CategoriesController extends Controller
 		'model' => Category::findOrFail($id),
 		'form' => '_common._form_category',
 		'submitButton' => 'Сохранить',
-		'action' => 'CategoriesController@update'
+		'action' => 'CategoriesController@update',
+		'text' => 'Новое название:',
 		
 		];
 		return view('actions.edit', $data);

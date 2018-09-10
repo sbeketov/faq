@@ -40,8 +40,9 @@ class AnswersController extends Controller
 		Answer::create($request->all());
 		$id = $request['question_id'];
 		$status = $request['status'];
-
-		return redirect('/question/'. $id . '/' . $status);
+		$referer = $request['referer'];
+        
+		return redirect('/question/'. $id . '/' . $status)->with($referer);
 	}
 
 	public function edit($id)
@@ -60,8 +61,9 @@ class AnswersController extends Controller
 	{
 		$model = Answer::findOrFail($id);
 		$model->update($request->all());
-
-		return redirect('/category');
+		$category_id = $request->category_id;
+		
+		return redirect('/category/' . $category_id);
 	}
 
 

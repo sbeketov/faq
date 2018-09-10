@@ -40,33 +40,12 @@
 
 		@endforeach
 
-			<tr>
-
-				<td colspan="2">
-
-					{!! Form::open(['url' => '/user', 'method' => 'path']) !!}
-
-					{!! Form::text('name', null, ['placeholder' => 'Логин', 'class' => 'form-control col-sm-3 mx-2']) !!}
-
-					{!! Form::text('password', null, ['placeholder' => 'Пароль', 'class' => 'form-control col-sm-3 mx-2']) !!}
-
-
-
-					{!! Form::submit('Добавить нового администратора', ['class' => 'btn btn-info mx-2']) !!}
-
-					{!! Form::close() !!}
-
-				</td>
-
-			</tr>
 
 	</tbody>
 
 </table>
 
-
-
-@include ('errors.list')
+@include ('actions.create')
 
 @stop
 

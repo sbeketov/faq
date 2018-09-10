@@ -4,7 +4,7 @@
 
 
 
-<table class="table table-hover">
+<table class="table table-hover mb-5">
 
 	<thead>
 
@@ -12,13 +12,13 @@
 
 		<th>Название категории</th>
 
-		<th>Всего вопросов</th>
+		<th class="text-center">Всего вопросов</th>
 
-		<th>Опубликовано</th>
+		<th class="text-center">Опубликовано</th>
 
-		<th>Ожидает ответа</th>
+		<th class="text-center">Ожидает ответа</th>
 
-		<th>Скрыто</th>
+		<th class="text-center">Скрыто</th>
 
 		<th></th>
 
@@ -27,73 +27,59 @@
 	</thead>
 
 	<tbody>
-
 		@foreach ($categories as $category)
-
 			<tr>
 
 				<td>{{ $category->name }}</td>
 
-				<td>
-					<a href="/category/{{ $category->id }}" class="btn btn-info">@foreach ($category->questionsCount as $questionsCount)
-						{{ $questionsCount->aggregate }}
-					@endforeach</a>
+				<td class="text-center">
+				    @foreach ($category->questionsCount as $questionsCount)
+				    	    <a href="/category/{{ $category->id }}" class="btn btn-primary">
+				    	        {{ $questionsCount->aggregate }}
+				    	    </a>      
+			    	@endforeach
+				</td>
+
+				<td class="text-center">
+				    @foreach ($category->questionsCount1 as $questionsCount)
+    				    <a href="/category/{{ $category->id }}/1" class="btn btn btn-success">
+			        	    {{ $questionsCount->aggregate }}
+					    </a>
+				    @endforeach
+				</td class="text-center">
+
+				<td class="text-center">
+				    @foreach ($category->questionsCount0 as $questionsCount)
+    				    <a href="/category/{{ $category->id }}/0" class="btn btn btn btn-warning">
+    						{{ $questionsCount->aggregate }}
+        				</a>
+    				@endforeach
+				</td>
+
+				<td class="text-center">
+				    @foreach ($category->questionsCount2 as $questionsCount)
+				        <a href="/category/{{ $category->id }}/2" class="btn btn-dark">
+    						{{ $questionsCount->aggregate }}
+    				    </a>
+    				@endforeach
 				</td>
 
 				<td>
-					@foreach ($category->questionsCount1 as $questionsCount)
-						{{ $questionsCount->aggregate }}
-					@endforeach
+				    <div class="row">
+    				    <a href="/category/{{ $category->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
+    
+    					{!! Form::open(['url' => '/category/'.$category->id, 'method' => 'delete']) !!}
+    
+    					{!! Form::submit('Удалить', ['class' => 'btn btn-danger mx-2']) !!}
+    
+    					{!! Form::close() !!}
+					</div>
 				</td>
-
-				<td>
-					@foreach ($category->questionsCount0 as $questionsCount)
-						{{ $questionsCount->aggregate }}
-					@endforeach
-				</td>
-
-				<td>
-					@foreach ($category->questionsCount2 as $questionsCount)
-						{{ $questionsCount->aggregate }}
-					@endforeach
-				</td>
-
-				<td><a href="/category/{{ $category->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
-
-					{!! Form::open(['url' => '/category/'.$category->id, 'method' => 'delete']) !!}
-
-					{!! Form::submit('Удалить', ['class' => 'btn btn-danger mx-2']) !!}
-
-					{!! Form::close() !!}
-
-				</td>
-
 			</tr>
-
 		@endforeach
-
-			<tr>
-
-				<td colspan="6">
-
-					{!! Form::open(['url' => '/category', 'method' => 'path']) !!}
-
-					{!! Form::text('name', null, ['placeholder' => 'Название категории', 'class' => 'form-control col-sm-3']) !!}
-
-					{!! Form::submit('Добавить новую категорию', ['class' => 'btn btn-info mx-2']) !!}
-
-					{!! Form::close() !!}
-
-			</tr>
-
-			
-
-			@include ('errors.list')
-
 	</tbody>
-
 </table>
 
-
+@include ('actions.create')
 
 @stop

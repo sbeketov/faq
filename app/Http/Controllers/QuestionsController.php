@@ -88,6 +88,8 @@ class QuestionsController extends Controller
 
 	public function editStatus($id, $status)
 	{	
+	    
+	    //dd($referer);
 		$model = Question::findOrFail($id);
 		$model->update([
 			'status' => $status

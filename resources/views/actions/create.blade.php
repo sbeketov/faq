@@ -1,12 +1,8 @@
-@extends('dashboard')
-@section('item')	
-	<div class="cd-faq-items">	
-		{!! Form::open(['method' => 'POST', 'url' => 'question']) !!}
-			
-			@include ($form)
+	
+{!! Form::open(['method' => 'POST', 'url' => $url]) !!}
+		
+	@include ($form)
 
-		{!! Form::close() !!}
-	</div>
+{!! Form::close() !!}
 
 @include ('errors.list')
-@stop

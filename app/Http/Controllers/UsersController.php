@@ -20,6 +20,9 @@ class UsersController extends Controller
 	
 		$data = [
 			'users' => User::all(),
+			'form' => '_common._form_user',
+			'url' => '/user',
+			'submitButton' => 'Добавить нового администратора'
 		];
 
 		
