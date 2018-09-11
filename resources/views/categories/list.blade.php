@@ -2,7 +2,7 @@
 
 @section('item')
 
-
+<h2 class="h2 mb-4">Категории</h2>
 
 <table class="table table-hover mb-5">
 
@@ -20,6 +20,8 @@
 
 		<th class="text-center">Скрыто</th>
 
+		<th></th>
+		<th></th>
 		<th></th>
 
 	  </tr>
@@ -65,15 +67,14 @@
 				</td>
 
 				<td>
-				    <div class="row">
-    				    <a href="/category/{{ $category->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
-    
-    					{!! Form::open(['url' => '/category/'.$category->id, 'method' => 'delete']) !!}
-    
-    					{!! Form::submit('Удалить', ['class' => 'btn btn-danger mx-2']) !!}
-    
-    					{!! Form::close() !!}
-					</div>
+    				<a href="/category/{{ $category->id }}/edit" class="btn btn-info mx-2 float-left">Изменить</a>
+    			</td>
+    			<td>
+					{!! Form::open(['url' => '/category/'.$category->id, 'method' => 'delete']) !!}
+
+					{!! Form::submit('Удалить', ['class' => 'btn btn-danger mx-2']) !!}
+
+					{!! Form::close() !!}
 				</td>
 			</tr>
 		@endforeach

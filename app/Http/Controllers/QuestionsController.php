@@ -83,7 +83,9 @@ class QuestionsController extends Controller
 	{
 		$model = Question::findOrFail($id);
 		$model->update($request->all());
-		return redirect('/question');
+		$referer = $request['referer'];
+
+		return redirect($referer);
 	}
 
 	public function editStatus($id, $status)

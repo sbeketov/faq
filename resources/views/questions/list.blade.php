@@ -11,7 +11,9 @@
 		<th class="text-center w-25">Вопрос</th>
 		<th class="text-center w-15">Категория</th>
 		<th class="text-center w-15">Дата создания</th>
-		<th class="w-15"></th>
+		<th class="w-5"></th>
+		<th class="w-5"></th>
+		<th class="w-5"></th>
 	  </tr>
 	</thead>
 	<tbody>
@@ -22,16 +24,16 @@
 				<td>{{ $question->name }}</td>
 				<td class="text-center">{{ $question->category->name }}</td>
 				<td class="text-center">{{ $question->created_at }}</td>
+				<td>			    
+				    <a href="/question/{{ $question->id }}" class="btn btn-info mx-2">Ответить</a>
+				</td>
 				<td>
-				    <div class="row">
-    				    <a href="/question/{{ $question->id }}" class="btn btn-info mx-2">Ответить</a>
-    				    
-    				    <a href="/question/{{ $question->id }}/edit" class="btn btn-info mx-2">Изменить</a>
-    
-    					{!! Form::open(['url' => '/question/'.$question->id, 'method' => 'delete']) !!}
-    					{!! Form::submit('Удалить', ['class' => 'btn btn-danger mx-2']) !!}
-    					{!! Form::close() !!}
-					</div>
+				    <a href="/question/{{ $question->id }}/edit" class="btn btn-info mx-2">Изменить</a>
+				</td>
+				<td>
+					{!! Form::open(['url' => '/question/'.$question->id, 'method' => 'delete']) !!}
+					{!! Form::submit('Удалить', ['class' => 'btn btn-danger mx-2']) !!}
+					{!! Form::close() !!}
 				</td>
 			</tr>
 		@endforeach    

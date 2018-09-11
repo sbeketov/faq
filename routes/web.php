@@ -17,7 +17,7 @@ Route::get('doc', function () {
 
 Route::resource('question', 'QuestionsController');
 Route::resource('category', 'CategoriesController');
-Route::get('category/{category}/{status}', 'CategoriesController@questions')->name('questions');
+Route::get('category/{category}/{status}', 'CategoriesController@questionsList')->name('questionsList');
 Route::resource('user', 'UsersController');
 Route::resource('answer', 'AnswersController');
 

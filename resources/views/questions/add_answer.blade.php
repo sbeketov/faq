@@ -9,7 +9,6 @@
 
 <h3 class="h3 mb-3">Ворос: {{ $question->name }}</h3>
 
-{{--
 {!! Form::open(['url' => '/answer', 'method' => 'path']) !!}
 
 {!! Form::hidden('referer', $_SERVER['HTTP_REFERER']) !!}
@@ -41,5 +40,5 @@
 </div>
 
 {!! Form::close() !!}
---}}
+
 @stop

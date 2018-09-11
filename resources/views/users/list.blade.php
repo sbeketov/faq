@@ -2,7 +2,7 @@
 
 @section('item')
 
-
+<h2 class="h2 mb-4">Администраторы</h2>
 
 <table class="table table-hover">
 

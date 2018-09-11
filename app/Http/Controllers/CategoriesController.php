@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Category;
 use App\Question;
-use App\Http\Requests\CategoryRequest;
+use App\Http\Requests\CategoriesRequest;
 
 
 class CategoriesController extends Controller
@@ -80,7 +80,7 @@ class CategoriesController extends Controller
 	}
 
 
-	public function store(Request $request) 
+	public function store(CategoriesRequest $request) 
 	{
 		Category::create($request->all()); 	
 		return redirect('/category');
@@ -100,7 +100,7 @@ class CategoriesController extends Controller
 		return view('actions.edit', $data);
 	}
 
-	public function update($id, Request $request)
+	public function update($id, CategoriesRequest $request)
 	{
 		$model = Category::findOrFail($id);
 		$model->update($request->all());
