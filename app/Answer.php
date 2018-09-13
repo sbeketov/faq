@@ -8,14 +8,13 @@ use App\Question;
 
 class Answer extends Model
 {
-
-	protected $fillable = [
-		'answer',
-		'question_id'
-	];
+    protected $fillable = [
+        'answer',
+        'question_id'
+    ];
 
     public function question()
-	{
-    	return $this->belongsTo(Question::class);
+    {
+        return $this->belongsTo(Question::class);
     }
 }

@@ -7,7 +7,6 @@ use App\Answer;
 use App\Category;
 use App\Question;
 
-
 class HomeController extends Controller
 {
     /**
@@ -23,11 +22,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-
-        $data = [ 
-            'categories' => Category::with(['questions'=> function($q) {
-            $q->where('status', 1)->orderBy('created_at', 'desc');
-        }])->get(),
+        $data = [
+            'categories' => Category::with(['questions'=> function ($q) {
+                $q->where('status', 1)->orderBy('created_at', 'desc');
+            }])->get(),
             'categoriesSelect' => Category::pluck('name', 'id'),
             'form' => '_common._form_question',
             'url' => '/question',
