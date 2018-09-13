@@ -62,9 +62,13 @@ class AnswersController extends Controller
 	
 		public function destroy($id)
 	{
-		$model = Answer::findOrFail($id)->delete();
-
-		return redirect()->back();
+		$model = Answer::findOrFail($id);
+		$model->delete();
+		
+		
+		return redirect()->action('QuestionsController@editStatus', [$model->question_id, 0]);
+		
+		//return redirect()->back();
 	}
 
 }
