@@ -42,6 +42,7 @@
 				</td>
 				<td>
 					{!! Form::open(['url' => '/question/'.$question->id, 'method' => 'delete']) !!}
+					{!! Form::hidden('url', $_SERVER['REQUEST_URI']) !!}
 					{!! Form::submit('Удалить', ['class' => 'btn btn-danger mx-1']) !!}
 					{!! Form::close() !!}
 				</td>

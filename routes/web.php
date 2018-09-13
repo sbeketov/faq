@@ -17,12 +17,13 @@ Route::get('doc', function () {
 
 Route::resource('question', 'QuestionsController');
 Route::resource('category', 'CategoriesController');
-Route::get('category/{category}/{status}', 'CategoriesController@questionsList')->name('questionsList');
+Route::get('category/{category}/{status}', 'CategoriesController@questionsList');
 Route::resource('user', 'UsersController');
 Route::resource('answer', 'AnswersController');
 
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('success', 'SuccessController@index');
 
 Route::get('question/{question}/{status}', 'QuestionsController@editStatus')->name('editStatus');

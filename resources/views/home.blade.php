@@ -18,7 +18,7 @@
 			<div class="card">
 				<div class="card-header" id="heading{{ $question->id }}">
 					<h5 class="mb-0">
-				        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{ $question->id }}" aria-expanded="true" aria-controls="{{ $question->name }}">
+				        <button class="btn btn-link inline text-left" type="button" data-toggle="collapse" data-target="#collapse{{ $question->id }}" aria-expanded="true" aria-controls="{{ $question->name }}" style="white-space: normal">
 				        	{{ $question->name }}
 				        </button>
 					</h5>

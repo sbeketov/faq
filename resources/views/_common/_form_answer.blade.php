@@ -3,9 +3,7 @@
 
 <div class="form-group">
     
-    {!! Form::hidden('referer', $_SERVER['HTTP_REFERER']) !!}
-
-	{!! Form::label('answer', 'Редактировать ответ: ', ['class' => 'col-sm-2 col-form-label']) !!}
+    {!! Form::label('answer', 'Редактировать ответ: ', ['class' => 'col-sm-2 col-form-label']) !!}
 
 	{!! Form::textarea('answer', null, ['class' => 'form-control']) !!}
 

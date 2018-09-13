@@ -1,8 +1,4 @@
-			
 
-
-			{!! Form::hidden('referer', $_SERVER['HTTP_REFERER']) !!} 
-			
 			<div class="form-group row">
 
 				{!! Form::label('author', 'Имя: *', ['class' => 'col-sm-2 col-form-label']) !!}

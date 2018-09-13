@@ -31,7 +31,7 @@ class HomeController extends Controller
             'categoriesSelect' => Category::pluck('name', 'id'),
             'form' => '_common._form_question',
             'url' => '/question',
-            'submitButton' => 'Задать вопрос'
+            'submitButton' => 'Задать вопрос',
         ];
         
         return view('home', $data);

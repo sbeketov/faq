@@ -23,8 +23,12 @@ class QuestionsController extends Controller
 		$data = [
 			'questions' => Question::where('status', 0)->orderBy('created_at', 'desc')->get(),
 		];
-
 		
+		$links = session()->has('links') ? session('links') : [];
+        $currentLink = request()->path(); // Getting current URI like 'category/books/'
+        array_unshift($links, $currentLink); // Putting it in the beginning of links array
+        session(['links' => $links]); // Saving links array to the session
+    
 		return view('questions.list', $data);
 	}
 	
@@ -47,20 +51,18 @@ class QuestionsController extends Controller
 
 	public function create() 
 	{	
-		$data = [
-		'categoriesSelect' => Category::pluck('name', 'id'),
-		'form' => '_common._form_question',
-		'action' => 'QuestionsController@store',
-		'submitButton' => 'Добавить',
-		];
-		return view('actions.create', $data);
+
 	}
 
 
 	public function store(QuestionRequest $request) 
 	{
 		Question::create($request->all());
-		return redirect('/');
+		$data =[
+		    'message' => 'Вопрос успешно добавлен',
+		    'back' => 'списку вопросов-ответов'
+		    ];
+		return view('/success', $data);
 	}
 
 	public function edit($id)
@@ -90,20 +92,19 @@ class QuestionsController extends Controller
 
 	public function editStatus($id, $status)
 	{	
-	    
-	    //dd($referer);
+	    //dd(session('links'));
 		$model = Question::findOrFail($id);
 		$model->update([
 			'status' => $status
 		]);
 
-		return redirect('/question');
+		return redirect(session('links')[0]);
 	}
 
 	public function destroy($id)
 	{
 		$model = Question::findOrFail($id)->delete();
-		return redirect('/category');
+		return redirect()->back();
 	}
 
 }

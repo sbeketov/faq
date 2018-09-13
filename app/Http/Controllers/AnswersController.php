@@ -7,7 +7,7 @@ use App\Question;
 use App\Category;
 use App\Answer;
 use App\Http\Requests\AnswerRequest;
-//use Request;
+use Request;
 
 class AnswersController extends Controller
 
@@ -26,12 +26,7 @@ class AnswersController extends Controller
 
 	public function create() 
 	{	
-		$data = [
-		'form' => '_common._form_answer',
-		'submitButton' => 'Добавить'
-		];
 
-		return view('actions.create', $data);
 	}
 
 	public function store(AnswerRequest $request) 
@@ -40,8 +35,8 @@ class AnswersController extends Controller
 		Answer::create($request->all());
 		$id = $request['question_id'];
 		$status = $request['status'];
-
-		return redirect('/question/'. $id . '/' . $status);
+		
+		return redirect()->action('QuestionsController@editStatus', [$id, $status]);
 	}
 
 	public function edit($id)
@@ -64,12 +59,12 @@ class AnswersController extends Controller
 
 		return redirect($referer);
 	}
-
-
-	public function destroy($id)
+	
+		public function destroy($id)
 	{
 		$model = Answer::findOrFail($id)->delete();
 
-		return redirect('/category');
+		return redirect()->back();
 	}
+
 }
