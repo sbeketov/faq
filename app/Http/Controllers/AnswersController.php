@@ -37,7 +37,7 @@ class AnswersController extends Controller
     {
         $data = [
         'model' => Answer::findOrFail($id),
-        'form' => '_common._form_answer',
+        'form' => '_common._form_answer_update',
         'submitButton' => 'Сохранить',
         'action' => 'AnswersController@update'
         ];

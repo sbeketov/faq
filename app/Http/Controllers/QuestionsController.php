@@ -35,7 +35,8 @@ class QuestionsController extends Controller
         $data = [
             'question' => Question::findOrFail($id),
             'form' => '_common._form_answer',
-            'submitButton' => 'Добавить',
+            'url' => '/answer',
+            'submitButton' => 'Добавить ответ',
             'status' => [
                 1 => 'Опубликовано',
                 2 => 'Скрыто'
