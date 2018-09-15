@@ -1,10 +1,8 @@
 @extends('layouts.app')
-
-
 @section('content')
 
 @include('_common._nav')
-	
-	@yield('item')
+
+@yield('item')
 
 @endsection
