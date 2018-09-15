@@ -33,8 +33,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `password`) VALUES
 
-(1,	'admin', '$2y$10$9uI3w3SCPfmhUpbiF5nOsegtxr1tveF0cDWRaDFOlgOhJiUCRQtTa  
-');
+(1,	'admin', '$2y$10$9uI3w3SCPfmhUpbiF5nOsegtxr1tveF0cDWRaDFOlgOhJiUCRQtTa');
 
 
 DROP TABLE IF EXISTS `answers`;
@@ -66,7 +65,7 @@ CREATE TABLE `categories` (
 
   `updated_at` timestamp NULL,
 
-  `name` varchar(255) NOT NULL, 
+  `name` varchar(255) NOT NULL,
 
   PRIMARY KEY (`id`)
 
@@ -90,7 +89,7 @@ CREATE TABLE `questions` (
   `author` varchar(255) NOT NULL,
 
   `email` varchar(255) NOT NULL,
- 
+
   `category_id` int(10) UNSIGNED NOT NULL,
 
   PRIMARY KEY (`id`)

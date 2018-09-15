@@ -10,7 +10,7 @@
 	{!! Form::label('password', 'Пароль: *', ['class' => 'col-sm-2 col-form-label']) !!}
 
     <div class="col-sm-3">
-        {!! Form::text('password', null, ['placeholder' => '****', 'class' => 'form-control']) !!}
+        {!! Form::text('password', null, ['class' => 'form-control']) !!}
     </div>
 </div>
 
